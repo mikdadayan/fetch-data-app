@@ -1,0 +1,21 @@
+.btn {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: .33s;
+}
+
+.btn-primary {  
+    background-color: #27c72d; /* Green */
+}
+
+.btn-secondary {
+    background-color: #186780; /* Blue */
+}

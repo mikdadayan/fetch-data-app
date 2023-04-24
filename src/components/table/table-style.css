@@ -1,0 +1,36 @@
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+
+
+.table th,
+.table td {
+  border-right: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.table td:last-child,
+th:last-child {
+  border-right: 0px;
+}
+
+.table th {
+  background-color: #201968;
+  color: #fff;
+  font-weight: bold !important;
+}
+
+.table tbody tr:nth-child(2n -1) {
+  background-color: #eefaff;
+}
+
+.table tbody tr:hover {
+  background-color: #c8efff;
+}
